@@ -378,7 +378,8 @@ footer {
   position: relative;
   background-color: #2196f3;
   fill: white;
-  visibility: visible;
+  opacity: 1;
+  visibility: hidden;
   transform: translateX(-120%);
 }
 
