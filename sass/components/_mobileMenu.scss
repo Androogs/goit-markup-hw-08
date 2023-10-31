@@ -1,0 +1,21 @@
+.menu {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+  }
+
+  &__item {
+    list-style: none outside none;
+    padding: 0 10px;
+    width: auto;
+  }
+
+  &__link {
+    color: #2196f3;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.22;
+    letter-spacing: 0.36px;
+  }
+}
